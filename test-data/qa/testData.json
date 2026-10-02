@@ -1,0 +1,98 @@
+{
+  "locationName": "Lantana Place",
+  "plans": [
+    {
+      "name": "Smile More",
+      "monthlyPrice": 49.99,
+      "annualPrice": 299.00,
+      "ageRestriction": "adult"
+    },
+    {
+      "name": "Child Smiles",
+      "monthlyPrice": 29.99,
+      "annualPrice": 170.00,
+      "ageRestriction": "<=13"
+    },
+    {
+      "name": "Perio Protection",
+      "monthlyPrice": 59.99,
+      "annualPrice": 499.00,
+      "ageRestriction": "adult"
+    }
+  ],
+  "subscriber": {
+    "adultFirstName": "John",
+    "adultLastName": "Doe",
+    "adultDOB": "15/01/1990",
+    "childFirstName": "Emily",
+    "childLastName": "Johnson",
+    "childDOB": "20/08/2020",
+    "gender": "Male",
+    "childGender": "Female"
+  },
+  "responsibleParty": {
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "relationship": "Parent",
+    "email": "jane.doe@example.com",
+    "phone": "+15678906789",
+    "address": "123 Main Street, Apt 2B",
+    "city": "New York",
+    "state": "New York",
+    "zipCode": "10001",
+    "dob": "15/05/1985"
+  },
+  "paymentCard": {
+    "cardNumber": "4242424242424242",
+    "expiration": "12/30",
+    "cvv": "123"
+  },
+  "alternatePaymentCard": {
+    "cardNumber": "5555555555554444",
+    "expiration": "03/26",
+    "cvv": "456"
+  },
+  "bankAccount": {
+    "routingNumber": "021000021",
+    "accountNumber": "123456789",
+    "accountHolderName": "John Doe"
+  },
+  "email": {
+    "baseEmail": "shruthi.mendon+qa",
+    "domain": "test.com"
+  },
+  "dependents": [
+    {
+      "firstName": "James",
+      "lastName": "Dependent01",
+      "dob": "01/01/1990",
+      "planName": "Smile More",
+      "gender": "Male"
+    },
+    {
+      "firstName": "Sarah",
+      "lastName": "Dependent02",
+      "dob": "02/02/2023",
+      "planName": "Child Smiles",
+      "gender": "Female"
+    }
+  ],
+  "testEmails": {
+    "unregistered": "nonexistent@example.com",
+    "firstUnregistered": "first.unregistered@example.com",
+    "anotherUnregistered": "another.unregistered@example.com",
+    "duplicate": "existing@example.com",
+    "valid": "alex.brown@example.com",
+    "johnDoe": "john.doe@example.com"
+  },
+  "defaultOTP": "4287",
+  "uiText": {
+    "homePageHeading": "A New Approach to Dental Services",
+    "locationPageHeading": "Select your location"
+  },
+  "errorMessages": {
+    "unregisteredEmail": "We couldn't find an account with that email",
+    "unregisteredEmailShort": "We couldn't find an account",
+    "duplicateEmail": "email already exists or account email already"
+  }
+}
